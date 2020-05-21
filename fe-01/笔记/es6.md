@@ -57,16 +57,33 @@ let 与 var 不一样 没有变量提升
 
 #### const 一个定义恒量/常亮的关键字
 
-const定义的变量是不可修改的
+>const定义的变量是不可修改的
 
-但是const定义 object 引用类型的值是可以修改的 但是地址不可以改变 不然会报错。
+>但是const定义 object 引用类型的值是可以修改的 但是地址不可以改变 不然会报错。
 
-引用类型：粗略的总结为 typeof函数调用后 返回object的变量 如 数组 函数 对象等
+>引用类型：粗略的总结为 typeof函数调用后 返回object的变量 如 数组 函数 对象等
 
-编码建议： 拒绝使用var 只使用let和const
+>编码建议： 拒绝使用var 只使用let和const
 
 
-#### 数组的结构
+#### 数组和对象的解构
+
+数组的解构 
+```javascript
+
+var arr = ["A", "B", "C"];
+var a = arr[0],
+    b = arr[1],
+    c = arr[2];
+console.log(a);
+//输出：A  之前都是这么用的
+
+//现在可以
+let [a, b, c] = ["A", "B", "C"];
+console.log(a);
+//输出：A
+
+```
 
 
 
