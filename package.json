@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dashsoap/MyFrontend/issues"
   },
-  "homepage": "https://github.com/Dashsoap/MyFrontend#readme"
+  "homepage": "https://github.com/Dashsoap/MyFrontend#readme",
+  "dependencies": {
+    "typescript": "^3.9.3"
+  }
 }
