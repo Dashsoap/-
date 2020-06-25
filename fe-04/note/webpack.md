@@ -29,7 +29,11 @@
 2. 文件操作
 3. 代码检查
 
+在安装webpack插件后 要在webpack.config.js 里面使用他
+
 自动清除 编译目录的插件 -- `yarn i clean-webpack-plugin`
+
+ 
 
 
 
