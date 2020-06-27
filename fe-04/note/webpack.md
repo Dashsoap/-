@@ -33,7 +33,5 @@
 
 自动清除 编译目录的插件 -- `yarn i clean-webpack-plugin`
 
- 
-
-
+devtool:"source-map" 可以追踪打包后的源码
 
