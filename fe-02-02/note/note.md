@@ -8,11 +8,17 @@
 
 4. import 只能在最顶层作用域
 
+## commonjs 是同步的
+
+![fyR1MH](https://raw.githubusercontent.com/Dashsoap/PhotoBed/master/uPic/fyR1MH.png)
+
+## AMD(异步的模块规范)
+    
 ```javascript 
 import('./xxxx.js').then(function(module){
 console.log(module)}) 
 //这样可以动态加载
 ```
-## 如何在browser里使用 Es module
-
+## Es module
+![5C51DJ](https://raw.githubusercontent.com/Dashsoap/PhotoBed/master/uPic/5C51DJ.png) 
 
